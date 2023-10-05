@@ -8,5 +8,10 @@ public class App {
 
     public static void main(String[] args) {
 
+        Email yahooo = new Email();
+
+        System.out.println("Resposta Validar Email:" + yahooo.add("1111", "jailason.p@aluno.ifsc.edu.br"));
+
+        System.out.println("Resposta remover:" + yahooo.remover("11111"));
     }
 }
